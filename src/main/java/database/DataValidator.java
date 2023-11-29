@@ -9,12 +9,12 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author trand
+ * @author trand 
  */
 public class DataValidator {
     public static void validatorEmpty(JTextField field, StringBuilder sb, String errorMessage){
         if(field.getText().equals("")){
-            sb.append(errorMessage).append("\n");
+            sb.append(errorMessage).append("\n"); 
             field.requestFocus();
         } else {
             field.setBackground(Color.white);
